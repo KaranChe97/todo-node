@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { resolve } = require("path");
 require("dotenv").config();
-const todoController = require("./controllers/todo.controller");
+const todoController = require("./todo.controller");
 
 const app = express();
 const port = process.env.PORT || 3001;
